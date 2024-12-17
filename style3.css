@@ -1,0 +1,146 @@
+body {
+    background-color: #5d6d7e;
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    display: flex; /* Affiche les éléments de la liste sur la même ligne */
+    list-style-type: none;
+    justify-content: left;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    background-color: #85929e;
+    line-height: 75px;
+    width: 65%;
+    border-radius: 30px;
+}
+
+.Informations {
+    border: 3px solid #4C5B61;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 30px;
+    height: 100%;
+}
+
+header li {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 2%;
+    list-style: none;
+}
+
+header a {
+    color: black;
+}
+
+header a.spécial {
+    font-weight: bold;
+    text-decoration-color: #2e4053;
+}
+
+img {
+    position: absolute;
+    top: 85px;
+    left: 70%;
+    height: 300px;
+}
+
+.P {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 1024px) {
+    header li {
+        font-size: 22px;
+    }
+
+    header {
+        line-height: 60px;
+    }
+
+    header ul {
+        margin-left: -25px;
+    }
+
+    .Informations {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 1250px) {
+    img {
+        position: relative;
+        top: 10px;
+        left: 45%;
+        height: 175px;
+    }
+}
+
+@media (max-width: 720px) {
+    header li {
+        font-size: 19px;
+    }
+
+    header ul {
+        margin-left: -32px;
+    }
+
+    header {
+        line-height: 55px;
+    }
+
+    .Informations {
+        font-size: 90%;
+    }
+
+    img {
+        position: relative;
+        top: 25px;
+        left: 35%;
+        height: 140px;
+    }
+	
+	.P {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        line-height: 40px;
+    }
+
+    header li {
+        font-size: 15px;
+    }
+
+    header ul {
+        margin-left: -45px;
+    }
+
+    .Informations {
+        font-size: 85%;
+    }
+
+    img {
+        position: relative;
+        top: 25px;
+        left: 35%;
+        height: 125px;
+    }
+	
+	.P {
+        font-size: 65%;
+    }
+}
